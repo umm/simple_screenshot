@@ -15,11 +15,24 @@ $ npm install @umm/simple_screenshot
 # Usage
 
 ```csharp
-SimpleScreenshot.Instance.Capture().Subscribe(texture => Debug.Log(texture));
+SimpleScreenshot
+    .Install(Camera.main)
+    .Capture()
+    .Subscribe(texture => Debug.Log(texture));
+
+SimpleScreenshot
+    .Install(Camera.main)
+    .CaptureToFile("/path/to/file")
+    .Subscribe(_ => Debug.Log("Finish to output!"));
 ```
 
+* Install メソッドに撮影対象のカメラを渡します
+    * List で渡すコトも可能です
 * Capture メソッドが、キャプチャ完了時に Texture を流すストリームを返します
-* あとはそれをファイルに吐くなり REST API に送るなりご自由に
+    * あとはそれを REST API に送るなりなんなりご自由に
+* CaptureToFile メソッドはキャプチャ結果をファイルに出力します
+    * これの戻り値のストリームは、出力完了時に Unit.Default を流します
+    * 内部でランダムなファイル名生成して、それを流すコトも考えたけどメンドイのでひとまずパス
 
 # License
 
