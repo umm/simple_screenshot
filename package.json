@@ -26,16 +26,13 @@
     "scripts"
   ],
   "dependencies": {
-    "@umm/gameobject_extension_component": "^1.1.4",
-    "@umm/singleton_monobehaviour": "^1.0.0",
-    "@umm/unirx": "^5.5.4",
+    "@umm/gameobject_extension_component": "~1",
+    "@umm/singleton_monobehaviour": "~1",
+    "@umm/unirx": "~5",
     "glob": "^7.1.2",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
     "rimraf": "^2.6.1"
   },
-  "devDependencies": {},
-  "optionalDependencies": {
-    "@umm/unity3drider": "^0.1.10"
-  }
+  "devDependencies": {}
 }
