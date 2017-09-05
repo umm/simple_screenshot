@@ -26,9 +26,9 @@
     "scripts"
   ],
   "dependencies": {
-    "@umm/gameobject_extension_component": "~1",
-    "@umm/singleton_monobehaviour": "~1",
-    "@umm/unirx": "~5",
+    "@umm/gameobject_extension_component": "github:umm-projects/gameobject_extension_component.git",
+    "@umm/singleton_monobehaviour": "github:umm-projects/singleton_monobehaviour.git",
+    "@umm/unirx": "github:umm-projects/unirx.git",
     "glob": "^7.1.2",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
