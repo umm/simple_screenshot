@@ -9,7 +9,7 @@
 # Install
 
 ```shell
-$ npm install @umm/simple_screenshot
+$ npm install github:umm-projects/simple_screenshot.git
 ```
 
 # Usage
