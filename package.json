@@ -28,7 +28,7 @@
   "dependencies": {
     "@umm/gameobject_extension_component": "github:umm-projects/gameobject_extension_component#semver:^1.1.6",
     "@umm/singleton_monobehaviour": "github:umm-projects/singleton_monobehaviour#semver:^1.0.4",
-    "@umm/unirx": "github:umm-projects/unirx#semver:^5.5.4",
+    "@umm/unirx": "github:umm-projects/unirx#semver:^1.0.0",
     "glob": "^7.1.2",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
