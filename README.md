@@ -9,7 +9,7 @@
 # Install
 
 ```shell
-$ npm install github:umm-projects/simple_screenshot.git
+yarn add "umm-projects/simple_screenshot#^1.0.0"
 ```
 
 # Usage
